@@ -1,0 +1,60 @@
+/*
+https://css-tricks.com/box-sizing/
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  background-color: black;
+  border: solid red 5px;
+  color: white;
+  /* float: left; */
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  outline: dashed blue 1px;
+  padding: 20px;
+  width: 50%; /* we wnat the element to take up exactly this much space */
+}
+
+/*#ruler {
+  background-color: green;
+  hight: 10px;
+  margin: 100px;
+  width: 300px;
+}
+*/
+h1 {
+  color: peachpuff;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+a {
+  color: peachpuff;
+}
+
+a:hover {
+  background-color: peachpuff;
+  color: #FFFFFF;
+}
+
+/* To tartget a class name used in your HTML
+put a . before the name */
+.center-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
